@@ -4,11 +4,6 @@ Airflow-orchestrated pipeline that parses `BING_MultiDays.csv` and loads a MySQL
 
 **Full walkthrough (design, schema, and run steps):** [DOCUMENTATION.md](DOCUMENTATION.md)
 
-Word / PDF copies (open in Microsoft Word, Google Docs, Preview, or a browser):
-
-- [Bing_Ads_Pipeline_Documentation.docx](Bing_Ads_Pipeline_Documentation.docx)
-- [Bing_Ads_Pipeline_Documentation.doc](Bing_Ads_Pipeline_Documentation.doc)
-- [Bing_Ads_Pipeline_Documentation.pdf](Bing_Ads_Pipeline_Documentation.pdf)
 
 This is an MVP: one source file, one warehouse, idempotent reload, enough modeling and task boundaries to extend later.
 
